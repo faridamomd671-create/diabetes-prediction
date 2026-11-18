@@ -28,13 +28,18 @@ streamlit run app.py
 ```
 
 ## Results
-Fill in your final table here after running `train_model.py`.
+
+| Model | Accuracy | Precision | Recall | F1 |
+|---|---|---|---|---|
+| Logistic Regression | 0.708 | 0.600 | 0.500 | 0.546 |
+| SVC | 0.740 | 0.652 | 0.556 | 0.600 |
+| Random Forest | 0.740 | 0.659 | 0.537 | 0.592 |
+| **Gradient Boosting** | **0.760** | **0.667** | **0.630** | **0.648** |
+
+Best model: **Gradient Boosting** (highest F1). Recall is 0.63, so the model still misses some positive cases. In a medical setting, improving recall would be the next step.
 
 ## Screenshots
-Add a screenshot of the app here: `![app](screenshot.png)`
 
-## Disclaimer
-Educational project only. Not a medical diagnosis tool.
-
+![App screenshot](screenshot.png)
 ## Author
 Farida — AI and Data Analysis Engineering, Sphinx University
