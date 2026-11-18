@@ -1,5 +1,7 @@
 # 🩺 Diabetes Prediction
 
+🔗 **Live demo:** https://https://diabetes-prediction-ikapp9xd8pqqjvappr6npys.streamlit.app/.streamlit.app
+
 Machine learning project that predicts whether a patient is likely to have diabetes
 from 8 medical features (Pima Indians Diabetes dataset), with an interactive **Streamlit** app.
 
@@ -41,5 +43,7 @@ Best model: **Gradient Boosting** (highest F1). Recall is 0.63, so the model sti
 ## Screenshots
 
 ![App screenshot](screenshot.png)
+
+
 ## Author
 Farida — AI and Data Analysis Engineering, Sphinx University
