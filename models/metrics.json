@@ -1,0 +1,57 @@
+{
+  "best_model": "GradientBoostingClassifier",
+  "results": [
+    {
+      "Algorithm": "LogisticRegression",
+      "Accuracy": 0.7078,
+      "Precision": 0.6,
+      "Recall": 0.5,
+      "F1": 0.5455,
+      "ROC_AUC": 0.813
+    },
+    {
+      "Algorithm": "SVC",
+      "Accuracy": 0.7403,
+      "Precision": 0.6522,
+      "Recall": 0.5556,
+      "F1": 0.6,
+      "ROC_AUC": 0.7964
+    },
+    {
+      "Algorithm": "RandomForestClassifier",
+      "Accuracy": 0.7403,
+      "Precision": 0.6591,
+      "Recall": 0.537,
+      "F1": 0.5918,
+      "ROC_AUC": 0.816
+    },
+    {
+      "Algorithm": "GradientBoostingClassifier",
+      "Accuracy": 0.7597,
+      "Precision": 0.6667,
+      "Recall": 0.6296,
+      "F1": 0.6476,
+      "ROC_AUC": 0.825
+    }
+  ],
+  "confusion_matrix": [
+    [
+      83,
+      17
+    ],
+    [
+      20,
+      34
+    ]
+  ],
+  "features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ]
+}
